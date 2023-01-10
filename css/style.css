@@ -2,7 +2,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     background-color: #f6f8f9;
     position: relative;
     top: 0;
@@ -20,14 +20,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     background-color: #f6f8f9;
     position: fixed;
     top: 0;
     z-index: 5;
 
 }
-
+.fa-bars{
+    visibility: hidden
+}
 .logo {
     animation: move 3s infinite;
 
@@ -50,6 +52,7 @@ header {
 }
 
 .navi_li a {
+    font-family: 'Red Hat Display';
     font-size: 11px;
     font-weight: bold;
     color: #97999c;
@@ -66,7 +69,7 @@ header {
 .section1 {
     width: 100%;
     height: 599px;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     display: flex;
     margin-bottom: 30px;
 }
@@ -83,15 +86,16 @@ header {
     background-size: cover;
     padding: 176px 110px 176px 146px;
     color: white;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
 }
 
-.left{
+/* .left{
     border: 3px solid red;
-}
+} */
 
 h2 {
+    font-family: 'Red Hat Display';
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 41px;
@@ -101,7 +105,7 @@ h2 {
     border-bottom: 1px solid #f6f8f9;
 }
 h3 {
-
+    font-family: 'Red Hat Display';
     padding-top: 45px;
     font-size: 24px;
     font-weight: bold;
@@ -110,6 +114,7 @@ h3 {
 
 .text_p {
     width: 521px;
+    font-family: 'Red Hat Display';
     font-size: 16px;
     margin-bottom: 20px;
 
@@ -138,6 +143,7 @@ h3 {
 }
 
 .textbut_txt{
+    font-family: 'Red Hat Display';
     font-size: 11px; 
     font-weight: bold;
     color: white;
@@ -150,9 +156,9 @@ h3 {
     width: 35%;
     height: 100%;
     padding-left: 30px;
-    padding-top: 31px;
+    padding-top: 51px;
     padding-bottom: 39px;
-    border: 8px solid  green;
+    /* border: 8px solid  green; */
     display: flex;
     flex-direction: column;
 
@@ -163,7 +169,7 @@ h3 {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 39px; 
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
 } 
@@ -175,11 +181,12 @@ h3 {
     padding-left: 35px;
     padding-top: 25px;
     padding-bottom: 39px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 h1 {
     width: 345px;
+    font-family: 'Red Hat Display';
     font-size: 24px;
     color: black;
     font-weight: bold;
@@ -198,14 +205,14 @@ h1 {
 .text3 {
     padding-bottom: 39px;
     padding-left: 10px;
-    border: 3px solid blue;
+   
     margin-bottom: 10px;
 }
 
 .text4 {
     padding-bottom: 39px;
     padding-left: 10px;
-    border: 3px solid blue;
+   
 }
 
 .heading1 {
@@ -236,23 +243,22 @@ h1 {
     width: 80%;
     margin-left: 140px;
     margin-bottom: 40px;
-    border: 3px solid blueviolet;
+    
 
 }
 
 .section2_h3 {
-    /* width: 100%; */
-    /* height: 1000px; */
+    font-family: 'Red Hat Display';
     font-size: 24px;
     margin-bottom: 40px;
-    border: 3px solid rgb(13, 255, 0);
+    
 
 }
 
 .cards {
     width: 100%;
     height: 410px;
-    border: 3px solid gray;
+    /* border: 3px solid gray; */
     display: flex;
     justify-content: space-between;
     gap: 35px;
@@ -261,7 +267,7 @@ h1 {
 
 .card {
     width: 30%;
-    border: 3px solid gray;
+    /* border: 3px solid gray; */
     text-align: left;
     background-color: white;
 
@@ -280,6 +286,7 @@ h1 {
     }
 
 .card_h5 {
+    font-family: 'Red Hat Display';
     font-size: 16px;
     font-weight: bold;
     padding-left: 40px;
@@ -288,6 +295,7 @@ h1 {
 
 .card_p {
     width: 281px;
+    font-family: 'Red Hat Display';
     font-size: 13px;
     color: #a6adb4;
     padding-left: 40px;
@@ -299,7 +307,7 @@ h1 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: 3px solid green;
+ 
 
 }
 
@@ -307,24 +315,26 @@ h1 {
 .section3_h4 {
 
     font-size: 24px;
+    font-family: 'Red Hat Display';
     font-weight: bold;
-    border: 3px solid green;
+
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
 }
 .main {
+    width: 100%;
     padding-top: 40px;
     padding-top: 0;
     display: flex;
 
-    border: 3px solid rgb(221, 170, 69);
+    
 }
 
 
 .leftimg {
     width: 60%;
-    /* flex-direction: column; */
+
 
     position: relative;
     padding-bottom: 40px;
@@ -338,6 +348,7 @@ h1 {
 }
 
 .leftimg_h5 {
+    font-family: 'Red Hat Display';
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -350,6 +361,7 @@ h1 {
 
 .leftimg_h4 {
     width: 760px;
+    font-family: 'Red Hat Display';
     font-size: 24px;
     font-weight: bold;
     color: white;
@@ -364,6 +376,7 @@ h1 {
 
 .leftimg_p {
     width: 681px;
+    font-family: 'Red Hat Display';
     font-size: 16px;
     color: white;
     padding-top: 10px;
@@ -399,7 +412,7 @@ h1 {
 .rigthph {
     width: 345px;
     height: 274px;
-    border: 3px solid red;
+
     display: inline-block
 }
 
@@ -410,6 +423,7 @@ h1 {
 }
 
 .right_h5 {
+    font-family: 'Red Hat Display';
     font-size: 16px;
     font-weight: bold;
     padding-top: 10px;
@@ -424,8 +438,9 @@ footer {
     padding: 58px 132px 63px 145px;
     background-color: rgb(113, 112, 112);
     color: white;
+    font-family: 'Red Hat Display';
     font-size: 13px;
-    border: 3px solid red;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -468,7 +483,7 @@ footer {
     /* margin-top: 103px; */
     margin: 103px auto;
 
-    border: 3px solid yellowgreen;
+   
     display: flex;
 
 
@@ -477,7 +492,7 @@ footer {
 .cont_sect_left {
     width: 53%;
     height: 500px;
-    border: 3px solid yellowgreen;
+    
     position: relative;
 }
 
@@ -489,6 +504,7 @@ footer {
 }
 
 .cont_cect_h4 {
+    font-family: 'Red Hat Display';
     font-size: 24px;
     color: white;
     font-weight: bold;
@@ -501,7 +517,7 @@ footer {
 
 .cont_sect_right {
     width: 47%;
-    border: 3px solid red;
+   
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -518,14 +534,14 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 3px solid red;
-
+   
 }
 
 
 .date_label,
 .passw {
     padding-bottom: 10px;
+    font-family: 'Red Hat Display';
     font-size: 13px;
     font-weight: bold;
     display: flex;
@@ -569,9 +585,14 @@ form {
     flex-direction: row;
     justify-content: space-between;
     gap: 39px;
+ 
 
 
 
+}
+.first{
+    width: 361px;
+   
 }
 
 .avatar {
@@ -583,18 +604,30 @@ form {
 
 .article_header_h4 {
     width: 361px;
+    font-family: 'Red Hat Display';
     font-size: 24px;
     font-weight: bold;
     padding-left: 5;
     padding-top: 45px;
+   
 }
+.art2text{
+    width: 762px;
+    display: flex;
+    gap:39px;
+    /* border: 3px solid blue;     */
 
+}
 .art_part {
     width: 341px;
     padding-top: 42px;
+  
+    
+    
 }
 
 .art_p1 {
+    font-family: 'Red Hat Display';
     font-size: 14px;
     height: 172px;
     color: #a6adb4;
@@ -602,6 +635,7 @@ form {
 }
 
 .art_p2 {
+    font-family: 'Red Hat Display';
     height: 128px;
     font-size: 14px;
     color: #a6adb4;
@@ -610,7 +644,7 @@ form {
 .conact_article2 {
     width: 85%;
     height: 831px;
-    border: 1px solid red;
+ 
     margin: 20px auto;
     border-bottom: 1px solid #a6adb4
 }
@@ -624,7 +658,7 @@ form {
 .conact_article2_p {
     width: 100%;
     height: 205px;
-    border: 1px solid blue
+  
 }
 
 .art2_p {
@@ -634,3 +668,536 @@ form {
     
 }
 
+@media screen and (max-width:769px){
+  .conteiner{
+    max-width: 769px;
+    overflow: hidden;
+    
+  }
+    header {
+        padding: auto;
+    
+    }
+
+    .section1 {
+        width: 100%;
+        height: 768px;
+       
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .text {
+        width: 100%;
+        height: 55%;
+       
+    
+    }
+    .text_text {
+        width: 100%;
+        height: 45%;
+        padding-top: 5px;
+        padding-left: 10px;
+  
+    } 
+    .div{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+        padding-bottom: 39px; 
+     
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+    } 
+    .heading_p {
+        width: 285px;
+        
+    }
+    .section2 {
+        width: 80%;
+       
+        margin-left:80px;
+     
+    }
+    .cards {
+       
+        height: 350px;
+      
+    }
+    .card {
+        width: 45%;
+      
+    
+    }
+    .gaqroba {
+        display: none;
+    }
+
+ 
+.card_p {
+    width: 185px;
+    height: 38px;
+   
+}
+.main {
+  
+    flex-direction: column;
+}
+.section3 {
+    width: 80%;
+  margin-left: 80px;
+   
+}
+.left {
+width: 100%;
+}
+
+.leftimg_photo1,
+.leftimg_photo2{
+    width: 542px;
+
+}
+.right {
+    width: 100%;
+  
+    flex-direction: row;
+   padding-top: 40px;
+    padding-left:0;
+    gap:40px;
+
+}
+
+.rigth_img {
+    width: 100%;
+    height: 85%;
+    padding-bottom:15px;
+}
+footer {
+    width: 100%;
+    margin-top: 114px;
+    padding: 61px 56px 28px 80px;
+ 
+}
+
+.foot2 {
+    display: flex;
+    gap: 20px;
+ 
+    padding-right: 193px;
+   
+}
+
+.foot3 {
+   
+    gap: 10px;
+ 
+}
+/* მეორე გერდი */
+
+
+.cont_sect {
+    width: 85%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.cont_sect_left {
+    width: 100%;
+    height: 400px;
+ 
+}
+.cont_sect_right {
+    width: 100%;
+  
+
+}
+
+form {
+    width: 100%;
+  
+    margin: 20px auto;
+    padding: 40px 80px 100px 80px;
+   
+}
+.date_inp,
+.key_inp {
+    width: 446px;
+    height: 40px;
+  
+
+}
+.submit {
+    width: 152px;
+   
+ 
+
+}
+
+
+.conact_article {
+    
+    height: 467px;
+   
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.conact_article2 {
+    width: 85%;
+    height: 758px;
+    margin-bottom: 142px;
+}
+    .first{
+        width: 610px;
+    
+    }
+    
+
+
+   .article_header_h4 {
+    width: 280px;
+   
+    padding-top: 20px;
+   
+}
+
+.art_part {
+    width: 285px;
+    height: 224px;
+    padding-top: 42px;
+   
+}
+
+
+.art2text{
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 39px;
+}
+
+.art_img {
+    width: 100%;
+    height: 260px;
+   
+}
+
+.conact_article2_p {
+   
+    height: 330px;
+} 
+}
+
+
+@media screen and (max-width:480px){
+    .conteiner{
+      max-width: 480px;
+    
+    }
+    header {
+        padding: auto;
+        
+    }
+    .navi{
+        display: none;
+    }
+     
+    .fa-bars{
+        visibility: visible
+    }
+.section1 {
+    width: 100%;
+    height: 876px;
+   display: flex;
+   flex-direction: column;
+ }
+   
+
+    .text {
+        width: 100%;
+        height: 388px;
+   
+        padding: 70px 23px 40px 24px;
+      
+    
+    }
+    
+.text_p {
+    width: 328px;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    /* margin-bottom: 10px; */
+
+}
+.div{
+    width: 100%x;
+    height:478px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 39px; 
+    gap:10px;
+  
+    display: flex;
+    flex-direction: column;
+} 
+.text3 {
+   
+    padding-left: 10px;
+    border: 3px solid blue;
+    /* margin-bottom: 10px; */
+}
+
+.text4 {
+    padding-bottom: 39px;
+    padding-left: 24px;
+    border: 3px solid blue;
+}
+.section2 {
+    width: 80%;
+    /* height: 756px; */
+   
+
+  margin: 0 auto;
+ 
+
+}
+
+.cards {
+       width: 100%;
+    height: 656px;
+ display: flex;
+ flex-direction: column;
+
+gap:30px;
+
+  
+}
+.card{
+    width: 100%;
+    height: 308px;
+    padding-bottom: 0;
+}
+.carding{
+    width:100%;
+    height:70%;
+
+
+}
+.section2_h3 {
+  
+    margin-bottom: 30px;
+
+
+}
+.section3 {
+    width: 80%;
+    /* height: 1560px; */
+    margin: 0 auto;
+    padding-top: 40px;
+ 
+}
+.main {
+    width: 100%;
+    
+}
+
+
+.leftimg {
+    width: 100%;
+  
+}
+
+.leftimg_photo1 {
+    width: 100%;
+    
+   
+
+}
+
+
+.leftimg_h4 {
+    width: 280px;
+  
+
+
+}
+
+.leftimg_p {
+    width: 280px;
+    
+
+}
+
+.leftimg_photo2 {
+    width: 100%;
+    
+}
+.right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 10px;
+
+
+
+}
+
+.rigthph {
+    width: 100%;
+    height: 216px;
+    /* border: 3px solid red;
+    display: inline-block */
+}
+
+.rigth_img {
+    width: 100%;
+    height: 85%;
+    padding-bottom: 30px;
+}
+.gamochena{
+    display: ruby-base;
+   
+ 
+}
+
+
+footer {
+    width: 100%;
+    
+    margin-top: 83px;
+    gap: 43px;
+    
+
+   
+  
+  
+}
+.foot3 {
+    width: 100%;
+    flex-direction: row;
+  
+ padding-right: 150px;
+ padding-bottom: 50px;
+ position: absolute;
+ left:100px;
+ bottom: 0;
+ gap:43px;
+
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-facebook,
+.fa-earth-americas {
+
+
+ font-size: 28px;
+ justify-content: space-between
+ 
+}
+
+.cont_sect {
+    width: 100%;
+    height: 1040px;
+ 
+
+}
+
+.cont_sect_left {
+    width: 100%;
+    height: 714px;
+  
+}
+
+
+
+.cont_cect_h4 {
+
+    left: 230px;
+   
+}
+
+.cont_sect_right {
+    width: 100%;
+   
+   
+
+}
+
+form {
+    width: 82%;
+    height: 80%;
+    padding-left: 24px;
+  
+}
+
+
+.date_label,
+.passw {
+    padding-bottom: 10px;
+    font-family: 'Red Hat Display';
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.date_inp,
+.key_inp {
+    width: 327px;
+    height: 40px;
+    color: transparent;
+    margin-bottom: 40px;
+
+}
+
+.conact_article {
+    width: 85%;
+    height: 682px;
+   
+}
+.first{
+    width: 329px;
+    
+}
+
+.article_header_h4 {
+    width: 329px;
+   
+  
+}
+.art2text,
+.art_part{
+    width: 329px;  
+   
+
+}
+.conact_article2 {
+    width: 85%;
+    height: 698px;
+    margin-top: 40px;
+   
+}
+
+.art_img {
+    width: 100%;
+    height: 327px;
+    padding-bottom: 40px;
+}
+
+.conact_article2_p {
+    width: 100%;
+    height: 352px;
+   
+}
+
+
+}
